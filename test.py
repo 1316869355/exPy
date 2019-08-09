@@ -1,9 +1,5 @@
-import numpy as np
+# import numpy as np
 
-a = np.array([ i for i in range(50)])
-print(a)
-l = a.reshape(2,5,5)
-
-print(l)
-print()
-print(l[1,:,2])
+t = 12345, 865,'hello'
+print(t)
+print(t[0])
